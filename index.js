@@ -20,5 +20,6 @@ function destructivelyRemoveFirstDriver(){
 }
 
 function appendDriver(name){
-  return drivers.slice().push(name);
+  let arr = drivers.slice()
+  return arr.push(name);
 }
